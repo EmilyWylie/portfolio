@@ -1,0 +1,74 @@
+* { 
+    box-sizing: border-box;
+}
+
+/*style for the h2 and buttons*/
+header {
+    width: 500;
+    background: #ffffff; 
+    border: 20px solid #3c6e71
+    padding: 30px; 
+    margin: 30px;
+    text-align: center;
+}
+
+/*the appearance of the buttons at the top of the page*/
+button {
+    color: #ffffff;
+    background-color: #3c6e71;
+    border-radius: 20%;;
+}
+
+/*effects on the links*/
+a:link {
+    color: #353535;
+}
+
+a:visited {
+    color: #3c6e71;
+}
+
+a:hover {
+    color: #284b63;
+}
+
+a:active {
+    color: #d9d9d9;
+}
+
+/* horizontal page breaks*/
+hr {
+    border: 3px solid #284b63; 
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* header/title of the website page*/
+h1 {
+    color: #3c6e71;
+    text-align: center; 
+    font-size: 70px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 4px;
+    line-height: 3px;
+}
+
+/*centering all text on the page below the main photo */
+p, h3, ul, ol {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500;
+    list-style-position: inside;
+    
+}
+
+/* placement of the main photo */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+    background: #3c6e71
+  }
