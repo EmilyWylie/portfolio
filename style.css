@@ -61,6 +61,7 @@ h2 {
 
 /*centering all text on the page below the main photo */
 p, h3, ul, ol {
+    color: #ffffff;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 500;
