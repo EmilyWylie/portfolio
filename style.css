@@ -5,7 +5,6 @@
 /*style for the h2 and buttons*/
 header {
     width: 500;
-    background: #ffffff; 
     border: 20px solid #3c6e71
     padding: 30px; 
     margin: 30px;
@@ -21,19 +20,19 @@ button {
 
 /*effects on the links*/
 a:link {
-    color: #353535;
+    color: #f4f81f;
 }
 
 a:visited {
-    color: #3c6e71;
+    color: #31dd2b;
 }
 
 a:hover {
-    color: #284b63;
+    color: #02273f;
 }
 
 a:active {
-    color: #d9d9d9;
+    color: #740c0c;
 }
 
 /* horizontal page breaks*/
@@ -45,12 +44,19 @@ hr {
 
 /* header/title of the website page*/
 h1 {
-    color: #3c6e71;
+    color: #ffffff;
     text-align: center; 
     font-size: 70px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 4px;
     line-height: 3px;
+}
+
+h2 {
+    color:  #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 /*centering all text on the page below the main photo */
