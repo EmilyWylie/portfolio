@@ -16,7 +16,7 @@ header {
 button {
     color: #ffffff;
     background-color: #284b63;
-    border-radius: 20%;;
+    border-radius: 20%;  
 }
 
 /*effects on the links*/
@@ -79,3 +79,9 @@ img {
     height: auto;
     object-fit: scale-down;
   }
+  .button {
+      border: solid #ffffff; 
+      border-radius: 25%;
+      margin: 12px;
+      padding: 5px;
+      }
